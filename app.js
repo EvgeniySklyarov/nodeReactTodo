@@ -1,9 +1,7 @@
 const express = require('express');
-
 const todo = require('./routes/todo.route');
 const cors = require('cors');
 const app = express();
-
 const mongoose = require('mongoose');
 
 let dev_db_url = 'mongodb://localhost:27017/todosDb';
